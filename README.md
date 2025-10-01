@@ -1,37 +1,24 @@
 # ai-portfolio
- Portfolio of AI and machine learning projects, including reinforcement learning, computer vision, and autonomous driving simulations in CARLA.
 
+Portfolio of applied ML/AI work — reinforcement learning, computer vision, and autonomous driving experiments — plus focused **Python practice alongside my Java background**.
 
+## Why this repo
 
-## About  
-This repository contains a portfolio of AI projects completed for independent study and coursework.  
-The goal is to demonstrate practical applications of machine learning and reinforcement learning, from foundational experiments to applied simulation in autonomous driving with CARLA.
+My coursework has been Java-heavy, so I’m deliberately strengthening my **Python** skills here. The repo collects **small, testable exercises** and larger projects to build fluency and good engineering habits (OOP, TDD, reproducibility).
 
+## Quickstart
 
+```bash
+# clone
+git clone https://github.com/jturner1825/ai-portfolio.git
+cd ai-portfolio
 
-## Projects  
+# (optional) create a virtual environment
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+# source .venv/bin/activate
 
-### 1. Python Prep Mini-Projects  
-Small projects built while refreshing core Python, NumPy, OpenCV, Gymnasium, and PyTorch.  
-- Skills: OOP, Data Handling, Neural Networks  
-- Status: Work in Progress 
-
-### 2. Lane Following in CARLA (Intro Project)  
-A reinforcement learning agent trained to stay within road lanes in the CARLA simulator.  
-- Skills: Reinforcement Learning, OpenCV, PyTorch  
-- Status: Planned  
-
-### 3. Pedestrian & Obstacle Avoidance (Planned)  
-Extending the lane-following agent to detect and avoid pedestrians and obstacles using vision-based AI.  
-- Skills: Object Detection, RL, Planning  
-- Status: Planned  
-
-
-
-## Tech Stack  
-- **Languages:** Python  
-- **Libraries:** NumPy, Pandas, Matplotlib, OpenCV, PyTorch, Stable-Baselines3  
-- **Simulation:** CARLA Simulator  
-- **Tools:** Jupyter Notebook, Git, VS Code  
-
-
+# install deps if/when requirements.txt appears
+# pip install -r requirements.txt
