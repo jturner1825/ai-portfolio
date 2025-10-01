@@ -1,1 +1,15 @@
 .ipynb_checkpoints/ 
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+repo_tree.txt
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+repo_tree.txt
